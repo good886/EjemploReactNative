@@ -58,7 +58,7 @@ render(){
   return(
     <ImageBackground source={require('./img/pet1.jpg')} style={styles.imageContainer}>
     <View style={styles.ContainerDataUsers}>
-      <Text style={styles.tittle}>Busqueda de Propietario</Text>
+      <Text style={styles.tittle}>Búsqueda de Propietario</Text>
       <TextInput style={styles.textInput} 
           placeholder='Ingrese el Nombre del Propietario' 
           onChangeText={(Input_propietario) => this.SearchProfile(Input_propietario)} 
